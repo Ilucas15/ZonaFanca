@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 25px;
+}
+
+/* INDEX Y PARAMETROS PARA LAS PAGINAS */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #D9DD92;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .hover:hover {
+    transform: scale(1.2);
+}
+
+.header .hover {
+    transition: all 0.3s;
+}
+
+.header .navbar-nav a {
+    color: white;
+}
+
+.header .navbar-nav a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+
+/* HERO */
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#hero {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../imagenes/hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.tituloH {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#hero button {
+    font-size: 50px;
+    border: 0;
+    top: 15px;
+    border-radius: 20px;
+}
+
+.boton {
+    transition: all 0.3s;
+    background-color: #D9DD92;
+}
+
+.boton:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color:#D9DD92;
+    background-color: black;
+}
+
+/* nosotros y h2 */
+.nosotrosBody{
+    background-image: url(../imagenes/guitarra.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+#nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#EFEFBB, #DAD299);
+    margin: 200px 5%;
+    /* height: 60vh; */
+    padding: 50px;
+    box-shadow: 5px 5px 10px 1px #000;
+    border-radius: 10px;
+}
+
+#nosotros .contenedor h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline double;
+    margin-bottom: 50px;
+    
+}
+
+#nosotros .contenedor p {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 25px;
+}
+/* MARCAS */
+.marca{
+    background-color:white;
+    margin: auto;
+    width: 30%;
+}
+
+section .marca h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+section .marca p {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+
+#marcas .contenedorPadre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+#marcas h3 {
+    text-align: center;
+    /* text-decoration: underline; */
+    margin-top: 30px;
+}
+
+#marcas p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#marcas .contenedorPadre .contenedor {
+    margin: 30px;
+    border: #000 1px solid;
+    width: 350px;
+    height: 350px;
+    box-shadow: 10px 10px 10px rgb(26, 23, 23);
+    border-radius: 10px;
+    transition: all 0.7s;
+    background-color: white;
+}
+
+#marcas .contenedorPadre .contenedor:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 15px 15px black;
+
+}
+
+#marcas .contenedorPadre .contenedor img {
+    width: 348px;
+    height: 100px;
+    border-radius: 10px;
+    background-position: center center;
+}
+
+#marcas div h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline double;
+}
+
+#marcas div .pm {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* CONTACTO Y FORMULARIO */
+/* imagen fondo */
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10%;
+    margin-top: 150px;
+}
+
+.imagenFondo {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../imagenes/contact.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.h1Contacto {
+    background-color: white;
+    margin: 30px 6%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.contacto .formulario .hijoForm label {
+    font-weight: bold;
+}
+
+.formulario .hijoForm input {
+    margin: 10px;
+    border: 1px black solid;
+    border-radius: 6px;
+}
+
+.formulario .hijoForm textarea {
+    margin: auto;
+    width: 80%;
+    border: 1px black solid;
+    border-radius: 6px;
+}
+
+
+
+.seccionB .contacto p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+div .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    width: 100vw;
+    border-top: black 2px solid;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer .estiloF {
+    font-size: 10px;
+}
+
+footer .estiloRedes a {
+    padding: 50px;
+}
+
+
+/* MEDIAQ */
+
+@media(max-width: 730px) {
+    .header {
+        overflow-x: hidden;
+    }
+    .marca{
+        background-color:unset ;
+    }
+}
