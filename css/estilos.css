@@ -271,17 +271,16 @@ footer {
     background-color: grey;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin-top: auto;
 }
 
-footer .estiloF {
-    font-size: 10px;
-}
 
-footer .estiloRedes a {
-    padding: 50px;
+
+footer .estiloRedes img{
+    height: 5vh;
+    margin: auto;
 }
 
 
@@ -294,4 +293,9 @@ footer .estiloRedes a {
     .marca{
         background-color:unset ;
     }
+    footer .estiloF h4{
+        font-size: 26px;
+        
+    }
+
 }
