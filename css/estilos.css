@@ -101,9 +101,9 @@ body {
     justify-content: center;
     align-items: center;
     background: radial-gradient(#EFEFBB, #DAD299);
-    margin: 200px 5%;
+    margin: 10%;
     /* height: 60vh; */
-    padding: 50px;
+    /* padding: 50px; */
     box-shadow: 5px 5px 10px 1px #000;
     border-radius: 10px;
 }
@@ -124,9 +124,11 @@ body {
 }
 /* MARCAS */
 .marca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color:white;
-    margin: auto;
-    width: 30%;
 }
 
 section .marca h2 {
@@ -276,8 +278,6 @@ footer {
     margin-top: auto;
 }
 
-
-
 footer .estiloRedes img{
     height: 5vh;
     margin: auto;
@@ -295,7 +295,14 @@ footer .estiloRedes img{
     }
     footer .estiloF h4{
         font-size: 26px;
-        
     }
-
+    #nosotros .contenedor h2 {
+        margin: 25px;
+        font-size: 25px;
+    }
+    #nosotros .contenedor p{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
 }
