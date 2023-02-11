@@ -129,6 +129,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color:white;
+    
 }
 
 section .marca h2 {
@@ -206,17 +207,17 @@ section .marca p {
 /* imagen fondo */
 .contacto {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* flex-direction: column; */
+    justify-content: center;
     align-items: center;
-    margin: 10px 10%;
-    margin-top: 150px;
+    flex-wrap: wrap;
+    margin-top: 15px;
 }
 
 .imagenFondo {
     background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../imagenes/contact.jpg);
+            rgba(67, 59, 59, 0.5),
+            rgba(57, 50, 50, 0.5)),url(../imagenes/guitarraC.jpg); 
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -224,7 +225,7 @@ section .marca p {
 }
 
 .h1Contacto {
-    background-color: white;
+    color: aliceblue;
     margin: 30px 6%;
     text-align: center;
     font-size: 50px;
@@ -232,24 +233,26 @@ section .marca p {
 
 .contacto .formulario .hijoForm label {
     font-weight: bold;
+    color: white;
 }
 
-.formulario .hijoForm input {
+.formulario .hijoForm {
+   text-align: center;
     margin: 10px;
-    border: 1px black solid;
     border-radius: 6px;
+}
+.formulario .hijoForm input{
+    margin: 10px;
 }
 
 .formulario .hijoForm textarea {
-    margin: auto;
-    width: 80%;
-    border: 1px black solid;
+    margin: auto; 
+    width: 90%; 
+    border: 1px gray solid;
     border-radius: 6px;
 }
 
-
-
-.seccionB .contacto p {
+/* .seccionB .contacto p {
     text-align: center;
     color: white;
     font-weight: bold;
@@ -262,7 +265,7 @@ div .mapa {
     align-items: center;
     margin-bottom: 10px;
     margin-top: 50px;
-}
+} */
 
 /* FOOTER */
 
@@ -290,19 +293,39 @@ footer .estiloRedes img{
     .header {
         overflow-x: hidden;
     }
-    .marca{
-        background-color:unset ;
-    }
+  
     footer .estiloF h4{
         font-size: 26px;
     }
     #nosotros .contenedor h2 {
-        margin: 25px;
+        margin: 27px;
         font-size: 25px;
     }
     #nosotros .contenedor p{
-        font-size: 15px;
+        font-size: 20px;
         font-weight: normal;
     }
+    section .marca h2 {
+        font-size: 27px;
+        font-weight: normal;
+    }
+    
+    section .marca p {
+        font-size: 20px;
+    }
+    .h1Contacto{
+        font-size: 30px;
+    }
+    .contacto .formulario .hijoForm label{
+        display: none;
+    }
+
+    /* #marcas .contenedorPadre .contenedor{
+        width: 150px;
+        height: 150px;
+    }
+    #marcas .contenedorPadre .contenedor img {
+        display:none
+    } */
     
 }
