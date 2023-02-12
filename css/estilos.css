@@ -19,7 +19,7 @@ body {
 .header {
     background-color: #D9DD92;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -39,7 +39,9 @@ body {
     transform: scale(1.1);
     color: black;
 }
-
+.btn{
+    margin-right: 0;
+}
 
 /* HERO */
 
@@ -108,7 +110,7 @@ body {
     border-radius: 10px;
 }
 
-#nosotros .contenedor h2 {
+.h2 {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
@@ -133,15 +135,12 @@ body {
 }
 
 section .marca h2 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration: underline;
+    font-size: 43px; 
 }
 
 section .marca p {
     text-align: center;
-    font-size: 38px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -153,14 +152,7 @@ section .marca p {
     flex-wrap: wrap;
     margin-bottom: 15px;
 }
-
-#marcas h3 {
-    text-align: center;
-    /* text-decoration: underline; */
-    margin-top: 30px;
-}
-
-#marcas p {
+.h3P{
     text-align: center;
     margin-top: 30px;
 }
@@ -201,7 +193,6 @@ section .marca p {
     margin-top: 15px;
     font-weight: bold;
 }
-
 
 /* CONTACTO Y FORMULARIO */
 /* imagen fondo */
@@ -293,7 +284,9 @@ footer .estiloRedes img{
     .header {
         overflow-x: hidden;
     }
-  
+    #hero .mediaH{
+        font-size: 30px;
+    }
     footer .estiloF h4{
         font-size: 26px;
     }
@@ -308,6 +301,7 @@ footer .estiloRedes img{
     section .marca h2 {
         font-size: 27px;
         font-weight: normal;
+        margin-bottom: 20px;
     }
     
     section .marca p {
@@ -316,28 +310,19 @@ footer .estiloRedes img{
     .h1Contacto{
         font-size: 30px;
     }
+    .formulario .hijoForm input{
+        width: 90%;
+    }
     .contacto .formulario .hijoForm label{
         display: none;
     }
     #hero {
-        background-image: linear-gradient(0deg,
-                rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url(../imagenes/hero.jpg);
-        background-position: center center;
-        background-size: cover;
         background-attachment: local;
     }
     .imagenFondo {
-        background-image: linear-gradient(0deg,
-                rgba(67, 59, 59, 0.5),
-                rgba(57, 50, 50, 0.5)),url(../imagenes/guitarraC.jpg); 
-        background-position: center center;
-        background-size: cover;
         background-attachment: local;
     }
     .nosotrosBody{
-        background-image: url(../imagenes/guitarra.jpg);
-        background-position: center center;
         background-size:auto;
         background-attachment: local;
     }
