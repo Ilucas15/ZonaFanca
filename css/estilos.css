@@ -44,6 +44,15 @@ body {
     margin-right: 0;
 }
 
+/* WASAAA */
+
+.whatsapp{
+    position: fixed;
+    right: 5px;
+   width: 80px;
+   bottom: 5px;
+}
+
 /* HERO */
 
 #hero {
@@ -307,6 +316,9 @@ footer .estiloRedes img {
         overflow-x: hidden;
     }
 
+    .whatsapp{
+        display: none;
+    }
     #hero .mediaH {
         font-size: 30px;
     }
