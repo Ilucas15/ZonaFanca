@@ -39,7 +39,8 @@ body {
     transform: scale(1.1);
     color: black;
 }
-.btn{
+
+.btn {
     margin-right: 0;
 }
 
@@ -87,17 +88,18 @@ body {
 .boton:hover {
     cursor: pointer;
     transform: scale(1.2);
-    color:#D9DD92;
+    color: #D9DD92;
     background-color: black;
 }
 
 /* nosotros y h2 */
-.nosotrosBody{
+.nosotrosBody {
     background-image: url(../imagenes/guitarra.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
+
 #nosotros {
     display: flex;
     justify-content: center;
@@ -116,7 +118,7 @@ body {
     text-align: center;
     text-decoration: underline double;
     margin-bottom: 50px;
-    
+
 }
 
 #nosotros .contenedor p {
@@ -124,18 +126,19 @@ body {
     line-height: 1.5;
     margin: 25px;
 }
+
 /* MARCAS */
-.marca{
+.marca {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:white;
-    
+    background-color: white;
+
 }
 
 section .marca h2 {
-    font-size: 43px; 
+    font-size: 43px;
 }
 
 section .marca p {
@@ -152,7 +155,8 @@ section .marca p {
     flex-wrap: wrap;
     margin-bottom: 15px;
 }
-.h3P{
+
+.h3P {
     text-align: center;
     margin-top: 30px;
 }
@@ -194,6 +198,17 @@ section .marca p {
     font-weight: bold;
 }
 
+/* catalogo */
+.d-item{
+    height: 500px;
+}
+.d-img{
+    height: 100vh;
+    object-fit:cover;
+}
+
+
+
 /* CONTACTO Y FORMULARIO */
 /* imagen fondo */
 .contacto {
@@ -208,7 +223,7 @@ section .marca p {
 .imagenFondo {
     background-image: linear-gradient(0deg,
             rgba(67, 59, 59, 0.5),
-            rgba(57, 50, 50, 0.5)),url(../imagenes/guitarraC.jpg); 
+            rgba(57, 50, 50, 0.5)), url(../imagenes/guitarraC.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -228,20 +243,22 @@ section .marca p {
 }
 
 .formulario .hijoForm {
-   text-align: center;
+    text-align: center;
     margin: 10px;
     border-radius: 6px;
 }
-.formulario .hijoForm input{
+
+.formulario .hijoForm input {
     margin: 10px;
 }
 
 .formulario .hijoForm textarea {
-    margin: auto; 
-    width: 90%; 
+    margin: auto;
+    width: 90%;
     border: 1px gray solid;
     border-radius: 6px;
 }
+
 /* .seccionB{
     display: flex;
     align-items: center;
@@ -273,7 +290,7 @@ footer {
     margin-top: auto;
 }
 
-footer .estiloRedes img{
+footer .estiloRedes img {
     height: 5vh;
     margin: auto;
 }
@@ -282,55 +299,79 @@ footer .estiloRedes img{
 /* MEDIAQ */
 
 @media(max-width: 730px) {
+    * {
+        font-size: 15px;
+    }
+
     .header {
         overflow-x: hidden;
     }
-    #hero .mediaH{
+
+    #hero .mediaH {
         font-size: 30px;
     }
-    footer .estiloF h4{
+
+    footer .estiloF h4 {
         font-size: 26px;
     }
+
     #nosotros .contenedor h2 {
         margin: 27px;
         font-size: 25px;
     }
-    #nosotros .contenedor p{
+
+    #nosotros .contenedor p {
         font-size: 20px;
         font-weight: normal;
+    }
+
+    #marcas .contenedorPadre .contenedor {
+        width: 350px;
+        height: 110px;
+        border-radius: 10px;
+        background-position: center center;
+    }
+    #marcas .h3P{
+        display: none;
     }
     section .marca h2 {
         font-size: 27px;
         font-weight: normal;
         margin-bottom: 20px;
     }
-    
+
     section .marca p {
         font-size: 20px;
     }
-    .h1Contacto{
+
+    .h1Contacto {
         font-size: 30px;
     }
-    .formulario .hijoForm input{
+
+    .formulario .hijoForm input {
         width: 90%;
     }
+
     /* input:focus{
         color:;
     } */
-    .contacto .formulario .hijoForm label{
+    .contacto .formulario .hijoForm label {
         display: none;
     }
+
     #hero {
         background-attachment: local;
     }
+
     .imagenFondo {
         background-attachment: local;
     }
-    .nosotrosBody{
-        background-size:auto;
+
+    .nosotrosBody {
+        background-size: auto;
         background-attachment: local;
     }
-   
+
 
     /* #marcas .contenedorPadre .contenedor{
         width: 150px;
@@ -339,5 +380,5 @@ footer .estiloRedes img{
     #marcas .contenedorPadre .contenedor img {
         display:none
     } */
-    
+
 }
