@@ -1,0 +1,69 @@
+/* CONTACTO Y FORMULARIO */
+/* imagen fondo */
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+    .formulario {
+        .hijoForm {
+            label {
+                font-weight: bold;
+                color: $color_1;
+            }
+        }
+    }
+}
+
+.imagenFondo {
+    background-image: linear-gradient(0deg, rgba(67, 59, 59, 0.5), rgba(57, 50, 50, 0.5)), url(../imagenes/guitarraC.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.h1Contacto {
+    color: $color_4;
+    margin: 30px 6%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.formulario {
+    .hijoForm {
+        text-align: center;
+        margin: 10px;
+        border-radius: 6px;
+
+        input {
+            margin: 10px;
+        }
+
+        textarea {
+            margin: auto;
+            width: 90%;
+            border: 1px gray solid;
+            border-radius: 6px;
+        }
+    }
+}
+
+/* .seccionB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seccionB .contacto p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+div .mapa {
+ margin: auto;
+} */

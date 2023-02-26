@@ -1,0 +1,19 @@
+/* FOOTER */
+footer {
+    height: 100px;
+    width: 100vw;
+    border-top: black 2px solid;
+    background-color: $background-color_1;
+    color: $color_1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+
+    .estiloRedes {
+        img {
+            height: 5vh;
+            margin: auto;
+        }
+    }
+}
