@@ -5,9 +5,7 @@ footer {
     border-top: black 2px solid;
     background-color: $background-color_1;
     color: $color_1;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flexS;
     margin-top: auto;
 
     .estiloRedes {

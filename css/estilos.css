@@ -43,15 +43,15 @@ body {
 .whatsapp {
   position: fixed;
   right: 5px;
-  width: 80px;
   bottom: 5px;
+  width: 60px;
 }
 
 /* HERO */
 #hero {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   text-align: center;
   flex-direction: column;
   height: 100vh;
@@ -69,8 +69,8 @@ body {
 
 .tituloH {
   color: white;
-  font-weight: bold;
   font-size: 50px;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -120,9 +120,9 @@ body {
 /* MARCAS */
 .marca {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: white;
 }
 
@@ -163,15 +163,15 @@ section .marca p {
   background-position: center center;
 }
 #marcas div h2 {
-  text-align: center;
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
   text-decoration: underline double;
 }
 #marcas div .pm {
-  text-align: center;
   margin-top: 15px;
   font-weight: bold;
+  text-align: center;
 }
 
 .h3P {
@@ -179,13 +179,19 @@ section .marca p {
   margin-top: 30px;
 }
 
+/*carrousel*/
+.tamano {
+  height: 450px;
+  object-fit: cover;
+}
+
 /* CONTACTO Y FORMULARIO */
 /* imagen fondo */
 .contacto {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-top: 15px;
 }

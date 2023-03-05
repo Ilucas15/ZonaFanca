@@ -1,8 +1,6 @@
 /* HERO */
 #hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexC;
     text-align: center;
     flex-direction: column;
     height: 100vh;
@@ -21,9 +19,8 @@
 
 .tituloH {
     color: $color_1;
-    font-weight: bold;
     font-size: 50px;
-    text-align: center;
+    @include FT;
     margin-bottom: 15px;
 }
 

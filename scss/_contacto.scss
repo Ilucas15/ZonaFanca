@@ -1,10 +1,8 @@
 /* CONTACTO Y FORMULARIO */
 /* imagen fondo */
 .contacto {
-    display: flex;
+    @include flexC;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     margin-top: 15px;
 

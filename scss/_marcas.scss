@@ -1,9 +1,7 @@
 /* MARCAS */
 .marca {
-    display: flex;
+    @include flexC;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: $color_1;
 }
 
@@ -23,9 +21,7 @@ section {
 
 #marcas {
     .contenedorPadre {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @include flexS;
         flex-wrap: wrap;
         margin-bottom: 15px;
 
@@ -55,16 +51,14 @@ section {
 
     div {
         h2 {
-            text-align: center;
             font-size: 40px;
-            font-weight: bold;
+            @include FT;
             text-decoration: underline double;
         }
 
         .pm {
-            text-align: center;
             margin-top: 15px;
-            font-weight: bold;
+            @include FT;
         }
     }
 }

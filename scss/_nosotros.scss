@@ -7,9 +7,7 @@
 }
 
 #nosotros {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include flexC;
 	background: radial-gradient(#EFEFBB, #DAD299);
 	margin: 10%;
 	box-shadow: 5px 5px 10px 1px #000;
@@ -26,8 +24,7 @@
 
 .h2 {
 	font-size: 60px;
-	font-weight: bold;
-	text-align: center;
+	@include FT;
 	text-decoration: underline double;
 	margin-bottom: 50px;
 }
