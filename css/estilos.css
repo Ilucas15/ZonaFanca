@@ -179,18 +179,25 @@ section .marca p {
   margin-top: 30px;
 }
 
+.cardPadre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cardPadre .card {
+  width: 15rem;
+}
+
 /*carrousel*/
 .tamano {
   height: 100%;
   object-fit: cover;
+  filter: brightness(0.6);
 }
 
 .c-item {
   height: 480px;
-}
-
-.slider {
-  filter: brightness(0.6);
 }
 
 /* CONTACTO Y FORMULARIO */
@@ -259,15 +266,14 @@ footer {
   width: 100vw;
   border-top: black 2px solid;
   background-color: grey;
-  color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: auto;
 }
-footer .estiloRedes img {
-  height: 5vh;
-  margin: auto;
+footer .estiloF h2 {
+  color: white;
+  font-size: 1.5rem;
 }
 
 /* MEDIAQ */
@@ -287,7 +293,7 @@ footer .estiloRedes img {
   #hero .mediaH {
     font-size: 30px;
   }
-  footer .estiloF h4 {
+  footer .estiloF h2 {
     font-size: 26px;
   }
   #nosotros .contenedor h2 {

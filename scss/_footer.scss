@@ -4,14 +4,14 @@ footer {
     width: 100vw;
     border-top: black 2px solid;
     background-color: $background-color_1;
-    color: $color_1;
     @include flexS;
     margin-top: auto;
 
-    .estiloRedes {
-        img {
-            height: 5vh;
-            margin: auto;
+
+    .estiloF {
+        h2 {
+            color: $color_1;
+            font-size: 1.5rem;
         }
     }
 }

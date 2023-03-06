@@ -1,0 +1,8 @@
+.cardPadre {
+    @include flexS;
+    flex-wrap: wrap;
+
+    .card {
+        width: 15rem;
+    }
+}

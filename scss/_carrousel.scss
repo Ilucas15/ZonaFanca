@@ -2,12 +2,10 @@
 .tamano{
     height: 100%;
     object-fit:cover;
+    filter: brightness(0.6);
 }
 
 .c-item{
     height: 480px;
 }
 
-.slider{
-    filter: brightness(0.6);
-}
