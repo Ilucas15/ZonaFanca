@@ -36,8 +36,7 @@ section {
             background-color: $color_1;
 
             &:hover {
-                transform: scale(1.1);
-                box-shadow: 15px 15px 15px black;
+               @include hover;
             }
 
             img {
