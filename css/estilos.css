@@ -200,15 +200,20 @@ section .marca p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 .cardPadre .card-body .titulo {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: bold;
 }
+.cardPadre .card-body {
+  border: 1px solid black;
+  border-radius: 7px;
+}
 .cardPadre .card-body .descripcion {
-  font-size: 26px;
+  font-size: 20px;
 }
 
 /*carrousel*/
